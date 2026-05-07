@@ -1,0 +1,35 @@
+project_metadata:
+  name: "認証システムセキュリティ改善"
+  version: "1.0.2"
+  last_updated: "2026-05-11"
+  pm: "内藤 睦博"
+
+task_status:
+  - id: T001
+    name: "要件定義・全体Spec作成"
+    status: "done"
+    progress: 100
+    completed_at: "2026-05-11"
+
+  - id: T002
+    name: "OAuth2.0プロトコル設計"
+    status: "in_progress"
+    progress: 80
+    assignee: "鈴木"
+
+  - id: T003
+    name: "セキュリティDBスキーマ設計"
+    status: "in_progress"
+    progress: 70
+    assignee: "鈴木"
+
+  - id: T004
+    name: "MFA(多要素認証)基盤設計"
+    status: "not_started"
+    assignee: "内藤"
+    note: "5/14までに骨子作成予定"
+
+changelog:
+  - version: "1.0.2"
+    date: "2026-05-11"
+    changes: "要件定義完了、設計フェーズへ移行"
